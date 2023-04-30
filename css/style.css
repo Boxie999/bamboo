@@ -1,0 +1,69 @@
+body {
+    background-image: url("../pictures/background3.jpg");
+    background-attachment: fixed;
+}
+
+
+.logo {
+    height: 40px;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    background-color: rgb(66, 40, 1) !important;
+}
+.nav-link {
+    font-size: 20px;
+    color: aliceblue !important ; 
+    
+}
+.nav-img {
+    height: 50px;
+}
+.navbar-toggler {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end !important;
+}
+
+.ourstory {
+    background-color: rgba(0, 0, 0, 0.726);
+    padding: 100px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+p {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+.c-item {
+  height: 480px;
+  margin-bottom: 50px;
+}
+.c-image {
+  height: 100%;
+  object-fit: scale-down;
+}
