@@ -33,31 +33,40 @@ body {
 
 .ourstory {
     background-color: rgba(0, 0, 0, 0.726);
-    padding: 100px;
-    margin-bottom: 50px;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px 10px 10px 10px;
 }
 
-h1 {
+
+#showcase h1 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
     color: white;
     font-size: 80px;
+    position: relative;
+    animation-name: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
-p {
+@keyframes heading {
+    0% {top: -400px; color: rgba(0, 0, 0, 0);}
+    100% {top: 0px; color: white;}
+}
+#content {
     color: white;
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
+    position: relative;
+    animation-name: paragraph;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
-h3 {
-    color: white;
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-
+@keyframes paragraph {
+    0% {left: -1000px; color: rgba(0, 0, 0, 0);}
+    100% {left: 0px; color: white;}
 }
-
 
 .c-item {
   height: 480px;
@@ -67,5 +76,4 @@ h3 {
   height: 100%;
   object-fit: scale-down;
   opacity: 90%;
-  border-radius: 10px;
 }
